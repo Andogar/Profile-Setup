@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.type-selection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.information input, .information label {
+  display: block;
+}
+
+.information input {
+  margin-top: 10px;
+  margin-bottom: 3em;
+  width: 30em;
+  height: 3em;
+}
+
+input[type=submit]{
+  border: 2px solid black;
+  border-radius: 4px;
+  background: white;
+  padding-bottom: 2em;
+  width: 100%;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.information input:nth-last-child(1){
+  margin-bottom: 0;
+}
+
+.info-1 {
+  float: left;
+  margin-left: 2em;
+}
+
+.info-2 {
+  float: right;
+  margin-right: 2em;
+  margin-left: 2em;
+}
